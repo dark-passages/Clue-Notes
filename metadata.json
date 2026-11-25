@@ -1,0 +1,5 @@
+{
+  "name": "Clue Notes",
+  "description": "Smart mobile deduction assistant and note-taking dossier for Clue / Cluedo board games with automated constraint propagation.",
+  "requestFramePermissions": []
+}

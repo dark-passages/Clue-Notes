@@ -1,0 +1,11 @@
+{
+  "name": "clue-notes-standalone",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node -e \"const fs=require('fs'),p=require('path');fs.mkdirSync('dist',{recursive:true});for(const f of ['index.html','editions.js','clue_notes_banner.png','favicon.ico','favicon.png','favicon-192.png','favicon-512.png','apple-touch-icon.png']){if(fs.existsSync(f))fs.copyFileSync(f,p.join('dist',f));}\"",
+    "lint": "node --check server.js && node --check editions.js"
+  }
+}
