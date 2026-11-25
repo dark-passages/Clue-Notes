@@ -1,6 +1,6 @@
-const http = require('node:http');
-const fs = require('node:fs');
-const path = require('node:path');
+const http = require('http');
+const fs = require('fs');
+const path = require('path');
 
 const HOST = '0.0.0.0';
 const PORT = Number.parseInt(process.env.PORT || '3000', 10) || 3000;
